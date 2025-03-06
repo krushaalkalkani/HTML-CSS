@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #444;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  width: 500px;
+}
+
+nav {
+  font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  /* color: blue; */
+  font-size: 26px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: yellow;
+  font-size: medium;
+  font-weight: bold;
+  padding: 5px;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  right: -25px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ol,
+ul {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+#author {
+  font-size: 18px;
+  font-style: italic;
+}
+
+#copyright {
+  font-size: 16px;
+  text-align: center;
+}
+
+.related-author {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.related-post {
+  list-style: none;
+}
+
+/* psudo class */
+li:first-child {
+  color: #1098ad;
+}
+
+/* styling linkas */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+  /* text-decoration: none */
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline wavy orange;
+  font-weight: bold;
+}
+
+a:active {
+  color: green;
+  font-style: italic;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+  /* margin: 00px; */
+}
+
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
